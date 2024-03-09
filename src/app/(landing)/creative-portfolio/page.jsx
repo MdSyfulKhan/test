@@ -60,14 +60,14 @@ export default function CreativePortfolioHome() {
   return (
     <>
       {/* Start Hero Section */}
-      <Hero3
+      {/* <Hero3
         title="Arino Creative <br />Portfolio"
         btnLink="contact"
         btnText={`Let's talk`}
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="./images/hero_bg_4.jpeg"
-      />
+      /> */}
       {/* End Hero Section */}
 
       {/* Start Portfolio Section */}
