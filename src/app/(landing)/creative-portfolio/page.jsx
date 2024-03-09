@@ -60,20 +60,20 @@ export default function CreativePortfolioHome() {
   return (
     <>
       {/* Start Hero Section */}
-      {/* <Hero3
+      <Hero3
         title="Arino Creative <br />Portfolio"
         btnLink="contact"
         btnText={`Let's talk`}
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="./images/hero_bg_4.jpeg"
-      /> */}
+      />
       {/* End Hero Section */}
 
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="80" />
       {portfolioData.map((item, index) =>
-        index % 2 === 0 ? (
+        index % 2 == 0 ? (
           <Div key={index}>
             <Portfolio2
               title={item.title}
