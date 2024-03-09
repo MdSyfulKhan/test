@@ -73,7 +73,7 @@ export default function CreativePortfolioHome() {
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="80" />
       {portfolioData.map((item, index) =>
-        index % 2 == 0 ? (
+        index % 2 === 0 ? (
           <Div key={index}>
             <Portfolio2
               title={item.title}
