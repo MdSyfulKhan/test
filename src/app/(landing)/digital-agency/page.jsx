@@ -139,7 +139,6 @@ const portfolioData = [
 
 export default function DigitalAgencyHome() {
   const [itemShow, setItemShow] = useState(6);
-
   return (
     <>
       {/* Start Hero Section */}
