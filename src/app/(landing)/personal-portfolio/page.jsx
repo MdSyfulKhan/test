@@ -161,10 +161,6 @@ const experienceData = [
 export default function PersonalPortfolioHome() {
   const [active, setActive] = useState('all');
   const [itemShow, setItemShow] = useState(6);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <Hero11
