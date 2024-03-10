@@ -4,6 +4,8 @@ import Div from "@/components/Div";
 import PageHeading from "@/components/PageHeading";
 import SectionHeading from "@/components/SectionHeading";
 import Spacing from "@/components/Spacing";
+import Image from "next/image";
+import imgUrl from '../../../../../public/images/case_study_img_1.jpeg'
 
 export default function CaseStudyDetailsPage() {
   return (
@@ -21,10 +23,11 @@ export default function CaseStudyDetailsPage() {
           variant="cs-style1 text-center"
         />
         <Spacing lg="90" md="45" />
-        <img
-          src="/images/case_study_img_1.jpeg"
+        <Image
+          src={imgUrl}
           alt="Thumb"
           className="w-100 cs-radius_15"
+          placeholder="blur"
         />
         <Spacing lg="140" md="80" />
         <h2 className="cs-font_38 text-center">Case Study Overview</h2>

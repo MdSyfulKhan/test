@@ -69,7 +69,6 @@ export default function ArchitectureAgencyHome() {
         btnLink="/about"
         btnText="Load More"
         bgImageUrl="/images/hero_bg_6.jpeg"
-        imgUrl="/images/hero_img_1.png"
         spiningCircleUrl="/images/hero_img_6.svg"
         videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
       />

@@ -5,7 +5,9 @@ import PageHeading from "@/components/PageHeading";
 import Sidebar from "@/components/Sidebar.jsx";
 import Spacing from "@/components/Spacing";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 import Link from "next/link";
+import imgUrl from '../../../../../public/images/post_5.jpeg';
 
 export default function BlogDetailsPage() {
   return (
@@ -27,7 +29,7 @@ export default function BlogDetailsPage() {
             {/* Start Details Post Content */}
             <Div className="cs-post cs-style2">
               <Div className="cs-post_thumb cs-radius_15">
-                <img src="/images/post_5.jpeg" alt="Post" className="w-100 cs-radius_15" />
+                <Image src={imgUrl} alt="Post" className="w-100 cs-radius_15" placeholder="blur" />
               </Div>
               <Div className="cs-post_info">
                 <Div className="cs-post_meta cs-style1 cs-ternary_color cs-semi_bold cs-primary_font">

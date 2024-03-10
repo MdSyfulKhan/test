@@ -8,6 +8,8 @@ import PageHeading from "@/components/PageHeading";
 import SectionHeading from "@/components/SectionHeading";
 import TestimonialSlider from "@/components/Slider/TestimonialSlider";
 import Spacing from "@/components/Spacing";
+import Image from "next/image";
+import serviceImage from '../../../../../public/images/service_img_1.jpeg'
 
 export default function ServiceDetailsPage() {
   return (
@@ -57,7 +59,7 @@ export default function ServiceDetailsPage() {
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img src="/images/service_img_1.jpeg" alt="Service" className='cs-radius_15 w-100' />
+              <Image src={serviceImage} alt="Service" className='cs-radius_15 w-100' placeholder="blur" />
             </Div>
             <Spacing lg='0' md='40'/>
           </Div>

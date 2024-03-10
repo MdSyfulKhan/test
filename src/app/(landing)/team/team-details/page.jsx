@@ -4,6 +4,8 @@ import Div from "@/components/Div"
 import PageHeading from "@/components/PageHeading"
 import Spacing from "@/components/Spacing"
 import SocialWidget from "@/components/Widget/SocialWidget"
+import imgUrl from '../../../../../public/images/member_details_1.jpeg'
+import Image from "next/image"
 
 export default function TeamDetails() {
   return (
@@ -18,7 +20,7 @@ export default function TeamDetails() {
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img src="/images/member_details_1.jpeg" alt="Member" className="w-100" />
+              <Image src={imgUrl} alt="Member" className="w-100" placeholder="blur" />
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">

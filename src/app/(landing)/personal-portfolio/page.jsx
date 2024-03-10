@@ -169,7 +169,6 @@ export default function PersonalPortfolioHome() {
         subtitle="Hailing from London, UK, I come with a wealth of web & app UI/UX design expertise. I'm eager to engage in a conversation with you about our distinctive offerings and passions."
         btnLink="/portfolio"
         btnText="See Portfolio"
-        imgUrl="/images/hero_img_5.png"
         experienceTitle="years experience in web design"
         experienceNumber="07+"
         projectTitle="250+"

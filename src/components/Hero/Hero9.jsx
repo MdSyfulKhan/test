@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import parse from 'html-react-parser';
 import Button from '../Button';
 import Div from '../Div';
+import imgUrl from "../../../public/images/hero_img_1.png"
+import Image from 'next/image';
 
 export default function Hero9({
   title,
@@ -9,7 +11,6 @@ export default function Hero9({
   btnLink,
   btnText,
   bgImageUrl,
-  imgUrl,
   spiningCircleUrl,
   videoSrc,
 }) {
@@ -43,7 +44,7 @@ export default function Hero9({
             <div className="col-xl-5 col-lg-6">
               <div className="cs-height_0 cs-height_lg_50" />
               <div className="cs-hero_img">
-                <img src={imgUrl} alt="Thumb" />
+                <Image src={imgUrl} alt="Thumb" placeholder='blur' />
                 <span
                   className="cs-hero_video_btn cs-center"
                   onClick={handelClick}

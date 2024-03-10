@@ -5,6 +5,8 @@ import Div from "@/components/Div";
 import PageHeading from "@/components/PageHeading";
 import SectionHeading from "@/components/SectionHeading";
 import Spacing from "@/components/Spacing";
+import Image from "next/image";
+import imgUrl from '../../../../../public/images/portfolio_details_1.jpeg'
 
 export default function PortfolioDetailsPage() {
   return (
@@ -16,7 +18,7 @@ export default function PortfolioDetailsPage() {
       />
       <Spacing lg='150' md='80'/>
       <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+        <Image src={imgUrl} alt="Details" placeholder="blur" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">

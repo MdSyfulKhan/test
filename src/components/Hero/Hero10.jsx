@@ -1,13 +1,14 @@
 import React from 'react';
 import parse from 'html-react-parser';
 import Button from '../Button';
+import Image from 'next/image';
+import shape1Url from "../../../public/images/hero_img_2.png"
 
 export default function Hero10({
   title,
   subtitle,
   btnLink,
   btnText,
-  shape1Url,
   shape2Url,
   shape3Url,
 }) {
@@ -25,7 +26,7 @@ export default function Hero10({
         </div>
       </div>
       <div className="cs-hero_img_1">
-        <img src={shape1Url} alt="Hero Img" />
+        <Image src={shape1Url} alt="Hero Img" placeholder='blur' />
       </div>
       <div className="cs-hero_img_2">
         <img src={shape2Url} alt="Hero Img" />

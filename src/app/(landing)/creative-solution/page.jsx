@@ -21,9 +21,8 @@ export default function CreativeSolutionHome() {
         finest finishing product in present and upcoming future."
         btnLink="/portfolio"
         btnText="See Portfolio"
-        bgImageUrl="/images/hero_bg_6.jpeg"
-        imgUrl="/images/hero_img_1.png"
-        shape1Url="/images/hero_img_2.png"
+        // bgImageUrl="/images/hero_bg_6.jpeg"
+        // imgUrl="/images/hero_img_1.png"
         shape2Url="/images/hero_img_3.png"
         shape3Url="/images/hero_img_4.png"
       />

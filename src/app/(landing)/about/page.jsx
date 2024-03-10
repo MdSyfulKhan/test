@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import Cta from "@/components/Cta";
 import Div from "@/components/Div";
 import FunFact from "@/components/FunFact";
@@ -6,6 +7,13 @@ import PageHeading from "@/components/PageHeading";
 import SectionHeading from "@/components/SectionHeading";
 import TeamSlider from "@/components/Slider/TeamSlider";
 import Spacing from "@/components/Spacing";
+import aboutImg from '../../../../public/images/about_img_1.jpeg'
+import aboutImg2 from '../../../../public/images/about_img_2.jpeg'
+import aboutImg3 from '../../../../public/images/about_img_3.jpeg'
+import aboutImg4 from '../../../../public/images/about_img_4.jpeg'
+
+
+
 
 const funfaceData = [
   {
@@ -60,24 +68,24 @@ export default function AboutPage() {
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-xl-2">
-            <img
-              src="/images/about_img_1.jpeg"
+            <Image
+              src={aboutImg}
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
           <Div className="col-lg-7">
-            <img
-              src="/images/about_img_2.jpeg"
+            <Image
+              src={aboutImg2}
               alt="About"
               className="w-100 cs-radius_15"
             />
             <Spacing lg="25" md="25" />
           </Div>
           <Div className="col-lg-5">
-            <img
-              src="/images/about_img_3.jpeg"
+            <Image
+              src={aboutImg3}
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -105,8 +113,8 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
-                <img
-                  src="/images/about_img_4.jpeg"
+                <Image
+                  src={aboutImg4}
                   alt="About"
                   className="w-100 cs-radius_15"
                 />

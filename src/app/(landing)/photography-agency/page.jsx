@@ -10,6 +10,9 @@ import PostSlider from "@/components/Slider/PostSlider";
 import TestimonialSlider from "@/components/Slider/TestimonialSlider";
 import Spacing from "@/components/Spacing";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
+
+import aboutImg from '../../../../public/images/about_img_5.jpeg'
 
 const heroData = [
   {
@@ -65,10 +68,11 @@ export default function PhotographyAgencyHome() {
         <Div className="row align-items-center cs-column_reverse_lg">
           <Div className="col-lg-5">
             <Div className="cs-radius_15 cs-shine_hover_1">
-              <img
-                src="/images/about_img_5.jpeg"
+              <Image
+                src={aboutImg}
                 alt="About"
                 className="cs-w100 cs-radius_5"
+                placeholder="blur"
               />
             </Div>
           </Div>
